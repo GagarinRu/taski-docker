@@ -1,8 +1,6 @@
-from pathlib import Path
+"""Импрорт библиотеки для работы."""
 import os
-
-
-load_dotenv()
+from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
